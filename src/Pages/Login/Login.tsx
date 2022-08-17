@@ -1,5 +1,10 @@
 const Login = () => {
-  return <div>login</div>;
+  return (
+    <div>
+      login
+      <button>login with bank id</button>
+    </div>
+  );
 };
 
 export default Login;
