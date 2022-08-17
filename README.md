@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# AWESOME APP
+
+This app is going to be Legen-Wait For It... DARY! LEGENDARY!. Some tips you should know: 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
