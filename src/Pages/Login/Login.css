@@ -1,0 +1,48 @@
+.Login {
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 60px 20px;
+  background-color: #fff;
+  height: 482px;
+  margin: 25px auto;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.5),
+    10px 10px 15px rgba(70, 70, 70, 0.12);
+}
+
+.Login-button {
+  width: 200px;
+  border: none;
+  margin: 0;
+  text-decoration: none;
+  background: #0069ed;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 250ms ease-in-out, transform 150ms ease;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 20px 0;
+  margin: 0 -5%;
+  overflow: hidden;
+  border-radius: 5px;
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.Login-button:hover,
+.Login-button:focus {
+  background: #0053ba;
+}
