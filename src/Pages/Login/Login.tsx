@@ -28,18 +28,19 @@ const Login = () => {
   const onSubmit = () => {
     setLoading(true)
 
-    axios
-      .post<RegisterResponse, AxiosResponse<RegisterResponse, User>, User>(
-        `http://localhost:8000/auth/register`,
-        user,
-      )
-      .then((res) => {
+    // axios
+    //   .post<RegisterResponse, AxiosResponse<RegisterResponse, User>, User>(
+    //     `http://localhost:8000/auth/register`,
+    //     user,
+    //   )
+    //   .then((res) => {
         setTimeout(() => {
-          const { access_token: accessToken } = res.data
-          login(accessToken)
+          // const { access_token: accessToken } = res.data
+          // login(accessToken)
+          login('hihi')
         }, 2000)
-      })
-      .catch((error) => console.log('error', error))
+      // })
+      // .catch((error) => console.log('error', error))
   }
 
   const login = (accessToken: string) => {
